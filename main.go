@@ -144,7 +144,7 @@ func main() {
 	checkECC()
 
 	fmt.Println("Compile eBPF with ecc...")
-	runCommand("./ecc-aarch64 final.c")
+	runCommand("./ecc-aarch64 program.c")
 
 	startEcli()
 

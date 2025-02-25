@@ -52,7 +52,7 @@ The **Go-based user-space manager** is responsible for:
 ### **Requirements**
 - **Linux Kernel ≥ 5.8** (eBPF LSM required)
 - **bpftool** (`apt install bpftool` or `yum install bpftool`)
-- **eBPF Compiler Collection (ECC, ECLI)**
+- **eBPF Compiler Collection (ECC-AARCH64, ECLI)**
 - **Go ≥ 1.18** for user-space controller
 
 ### **Build & Run**
