@@ -57,7 +57,7 @@ The **Go-based user-space manager** is responsible for:
 
 ### **Build & Run**
 
-1️⃣ **Clone the repository**
+**Clone the repository**
 ```bash
 git clone https://github.com/yourusername/ebpf_permission_manager.git
 cd ebpf_permission_manager
