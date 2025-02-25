@@ -127,7 +127,7 @@ func updateBPFMap(path string) {
 			"    key hex 00 00 00 00 \\\n"+
 			"    value hex \\\n    %s", asciiPath)
 
-	fmt.Println("Exec command:")
+	fmt.Println("Executing command:")
 	fmt.Println(updateCmd)
 	runCommand(updateCmd)
 	fmt.Println("Path added!")
