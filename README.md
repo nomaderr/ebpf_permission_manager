@@ -20,7 +20,7 @@ The project consists of:
 
 ## Architecture
 
-### 1️⃣ **eBPF Program (C)**
+### **eBPF Program (C)**
 
 The eBPF program operates at the kernel level, leveraging an **LSM (Linux Security Module) hook** to intercept file creation attempts. 
 
@@ -36,7 +36,7 @@ The eBPF program operates at the kernel level, leveraging an **LSM (Linux Securi
 
 ---
 
-### 2️⃣ **User-Space Controller (Go)**
+### **User-Space Controller (Go)**
 
 The **Go-based user-space manager** is responsible for:
 - **Compiling and loading** the eBPF program (`ecc`, `ecli`)
