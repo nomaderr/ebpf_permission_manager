@@ -84,7 +84,7 @@ Clean eBPF-map before adding new path...
 Run command: bpftool map dump pinned /sys/fs/bpf/block_path_map
 Map is empty, skip deletion.
 Formating path: parent='opt', child='folder'
-Exec command:
+Prepare bpftool command:
 bpftool map update pinned /sys/fs/bpf/block_path_map \
     key hex 00 00 00 00 \
     value hex \
@@ -96,7 +96,7 @@ bpftool map update pinned /sys/fs/bpf/block_path_map \
     00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 \
     00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 \
     00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-Run command: bpftool map update pinned /sys/fs/bpf/block_path_map \
+Executing command: bpftool map update pinned /sys/fs/bpf/block_path_map \
     key hex 00 00 00 00 \
     value hex \
     6f 70 74 00 00 00 00 00 00 00 00 00 00 00 00 00 \
