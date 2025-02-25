@@ -10,7 +10,7 @@ import (
 )
 
 func runCommand(cmd string) string {
-	fmt.Printf("Run command: %s\n", cmd)
+	fmt.Printf("Prepare bpftool command: %s\n", cmd)
 	out, err := exec.Command("bash", "-c", cmd).CombinedOutput()
 	if err != nil {
 		fmt.Printf("Error: %s\n: %s\n", err, string(out))
